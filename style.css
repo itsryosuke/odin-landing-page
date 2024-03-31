@@ -30,7 +30,7 @@ body {
     font-weight: 600;
 }
 
-h1 {
+#maintext {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
@@ -66,6 +66,7 @@ button {
 }
 
 #placeholder {
+    border-radius: 3px;
     width: 720px;
     height: auto;
     background-color: grey;
@@ -73,4 +74,62 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#information {
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
+    margin: 50px;
+}
+
+.middle-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offers {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.smartphone, .galaxybook, .tv, .galaxywatch {
+    max-width: 200px;
+}
+
+.offers-text {
+    text-align: center;
+}
+
+.offers-images {
+    border: 2px solid #3882F6;
+    border-radius: 7px;
+    
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 500px;
+}
+
+#quote-text {
+    font-family: "Proxima Nova";
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#quote-signature {
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
 }
